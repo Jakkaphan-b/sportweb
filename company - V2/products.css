@@ -35,6 +35,7 @@ nav a:hover {
 }
 
 .products{
+    text-decoration: none;
     padding:0 20px;
     object-fit: cover;
 }
@@ -49,6 +50,7 @@ nav a:hover {
     margin: auto;
 }
 .product {
+    text-decoration: none;
     flex: 0 0 auto; /* ป้องกันการขยายเต็มหน้าจอ */
     width: 130px; /* กำหนดความกว้างของสินค้า */
     background: #fff;
@@ -74,6 +76,7 @@ nav a:hover {
 .pro-des{
     color: #333;
     margin-top: 10px ;
+    text-decoration: none;
 }
 .pro-des h3{
     font-size: 1rem;
@@ -84,12 +87,15 @@ nav a:hover {
     font-size: 1.5rem;
     color: red;
     margin: 10px 0;
+   
 }
 .original-price {
     font-size: 1rem;
     color: #777;
     margin: 10px 0;
+    text-decoration: line-through;
 }
+
 .product button {
     background-color: #28a745;
     color: #fff;
@@ -100,6 +106,10 @@ nav a:hover {
 }
 .product button:hover {
     background-color: #218838;
+}
+.product-link {
+    text-decoration: none;
+    color: #333;
 }
 footer {
     background-color: #000;

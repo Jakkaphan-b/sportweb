@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             row.innerHTML = `
                 <td><img src="${product.image}" width="50"></td>
                 <td>${product.name}</td>
+                <td>${product.size}</td>
                 <td>$${product.price}</td>
                 <td>${product.quantity}</td>
                 <td>$${(product.price * product.quantity).toFixed(2)}</td>
