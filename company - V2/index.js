@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <div class="pro-des">
                     <h3>${product.name}</h3>
-                    <p class="original-price">$${product.originalPrice.toFixed(2)}</p>
-                    <p class="discount-price">$${product.discountPrice.toFixed(2)}</p>
+                    <p class="original-price">${product.originalPrice.toFixed(2)} ฿</p>
+                    <p class="discount-price">${product.discountPrice.toFixed(2)} ฿</p>
                 </div>
             </a>
             <button class="add-to-cart" 
