@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/black/b02.jgp.webp)no-repeat center center fixed;
+    background-size: cover;
+}
+.logo{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #81c784;
+    outline: none;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.container  button {
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container #employee-login a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

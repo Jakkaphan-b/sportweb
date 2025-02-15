@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center; /* จัดให้ข้อความอยู่ตรงกลางตามแนวตั้ง */
+}
+
+.logo img {
+    width: 50px; /* ปรับขนาดตามต้องการ */
+    height: auto;
+    margin-right: 20px; /* เพิ่มระยะห่างระหว่างรูปกับข้อความ */
+    border-radius: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.product-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-details .img img {
+    width: 200px;
+    height: auto;
+}
+
+.pro-info {
+    max-width: 400px;
+}
+
+.pro-info h2 {
+    font-size: 1.8rem;
+}
+
+.pro-info select,
+.pro-info input {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.pro-info button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pro-info button:hover {
+    background-color: #218838;
+}
+
+footer {
+    position: fixed;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px;
+    bottom: 0;
+    width: 100%;
+}

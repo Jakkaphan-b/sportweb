@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/black/b02.jgp.webp)no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* จัดให้ข้อความอยู่ตรงกลางตามแนวตั้ง */
+}
+
+.logo img {
+    width: 50px;
+    /* ปรับขนาดตามต้องการ */
+    height: auto;
+    margin-right: 20px;
+    /* เพิ่มระยะห่างระหว่างรูปกับข้อความ */
+    border-radius: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1b5e20;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #81c784;
+    outline: none;
+}
+
+.container #signin-form button {
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container #signin-form button:hover {
+    background-color: #388e3c;
+}
+.container #login-form button {
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+    margin-top: 0px;
+    padding: 10px 100px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+
+}
+
+.toggle-buttons button:hover {
+    background-color: #388e3c;
+}
+
+.toggle-buttons button:focus {
+    background-color: #1b5e20;
+    color: white;
+}
+
+.employee-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.employee-login a {
+    background-color:#1b5e20;
+    border-radius: 10px;
+    text-decoration:none;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
