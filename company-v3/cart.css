@@ -116,6 +116,13 @@ nav a:hover {
     background-color: #b30000;
 }
 
+.bt a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin: 0 15px;
+}
+
 /* --------- Footer --------- */
 footer {
     text-align: center;

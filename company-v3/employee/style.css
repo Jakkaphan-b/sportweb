@@ -74,3 +74,19 @@ button {
 button:hover {
     background-color: #218838;
 }
+
+
+#inventoryTable {
+    margin: 0 auto;
+    width: 80%; /* ปรับขนาดตารางให้เหมาะสม */
+  }
+  
+  #inventoryTable th, #inventoryTable td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #inventoryTable th {
+    background-color: #f0f0f0;
+  }
